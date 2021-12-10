@@ -2,7 +2,8 @@
 Array.prototype.random = function () {
     return this[Math.floor((Math.random()*this.length))];
   }
-let A=['Abomasnow','Abra','Absol','Accelgor','Aegislash','Aerodactyl','Aggron','Aipom','Alakazam','Alcremie','Alomomola','Altaria','Amaura','Ambipom','Amoonguss','Ampharos','Anorith','Appletun','Applin','Araquanid','Arbok','Arcanine','Arceus','Archen','Archeops','Arctovish','Arctozolt','Ariados','Armaldo','Aromatisse','Aron','Arrokuda','Articuno','Audino','Aurorus','Avalugg','Axew','Azelf','Azumarill','Azurill']
+
+  let A=['Abomasnow','Abra','Absol','Accelgor','Aegislash','Aerodactyl','Aggron','Aipom','Alakazam','Alcremie','Alomomola','Altaria','Amaura','Ambipom','Amoonguss','Ampharos','Anorith','Appletun','Applin','Araquanid','Arbok','Arcanine','Arceus','Archen','Archeops','Arctovish','Arctozolt','Ariados','Armaldo','Aromatisse','Aron','Arrokuda','Articuno','Audino','Aurorus','Avalugg','Axew','Azelf','Azumarill','Azurill']
 let B=['Bagon','Baltoy','Banette','Barbaracle','Barboach','Barraskewda','Basculin','Bastiodon','Bayleef','Beartic','Beautifly','Beedrill','Beheeyem','Beldum','Bellossom','Bellsprout','Bergmite','Bewear','Bibarel','Bidoof','Binacle','Bisharp','Blacephalon','Blastoise','Blaziken','Blipbug','Blissey','Blitzle','Boldore','Boltund','Bonsly','Bouffalant','Bounsweet','Braixen','Braviary','Breloom','Brionne','Bronzong','Bronzor','Bruxish','Budew','Buizel','Bulbasaur','Buneary','Bunnelby','Burmy','Butterfree','Buzzwole']
 let C=['Cacnea','Cacturne','Calyrex','Camerupt','Carbink','Carkol','Carnivine','Carracosta','Carvanha','Cascoon','Castform','Caterpie','Celebi','Celesteela','Centiskorch','Chandelure','Chansey','Charizard','Charjabug','Charmander','Charmeleon','Chatot','Cherrim','Cherubi','Chesnaught','Chespin','Chewtle','Chikorita','Chimchar','Chimecho','Chinchou','Chingling','Cinccino','Cinderace','Clamperl','Clauncher','Clawitzer','Claydol','Clefable','Clefairy','Cleffa','Clobbopus','Cloyster','Coalossal','Cobalion','Cofagrigus','Combee','Combusken','Comfey','Conkeldurr','Copperajah','Corphish','Corsola','Corviknight','Corvisquire','Cosmoem','Cosmog','Cottonee','Crabominable','Crabrawler','Cradily','Cramorant','Cranidos','Crawdaunt','Cresselia','Croagunk','Crobat','Croconaw','Crustle','Cryogonal','Cubchoo','Cubone','Cufant','Cursola','Cutiefly','Cyndaquil']
 let D=['Darkrai','Darmanitan','Dartrix','Darumaka','Decidueye','Dedenne','Deerling','Deino','Delcatty','Delibird','Delphox','Deoxys','Dewgong','Dewott','Dewpider','Dhelmise','Dialga','Diancie','Diggersby','Diglett','Ditto','Dodrio','Doduo','Donphan','Dottler','Doublade','Dracovish','Dracozolt','Dragalge','Dragapult','Dragonair','Dragonite','Drakloak','Drampa','Drapion','Dratini','Drednaw','Dreepy','Drifblim','Drifloon','Drilbur','Drizzile','Drowzee','Druddigon','Dubwool','Ducklett','Dugtrio','Dunsparce','Duosion','Duraludon','Durant','Dusclops','Dusknoir','Duskull','Dustox','Dwebble']
@@ -28,6 +29,7 @@ let W=['Wailmer','Wailord','Walrein','Wartortle','Watchog','Weavile','Weedle','W
 let X=['Xatu','Xerneas','Xurkitree']
 let Y=['Yamask','Yamper','Yanma','Yanmega','Yungoos','Yveltal']
 let Z=['Zacian','Zamazenta','Zangoose','Zapdos','Zarude','Zebstrika','Zekrom','Zeraora','Zigzagoon','Zoroark','Zorua','Zubat','Zweilous','Zygarde']
+
 let Poke=[A,B,C,D,E,F, G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z]
 function alpa_poke(){
     t=[]
